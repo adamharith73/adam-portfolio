@@ -1,0 +1,138 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristiano Ronaldo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main">
+        <div class="header">
+            <h1 id="title">Cristiano Ronaldo</h1>
+            <p>The Man Who Masters Football</p>
+        </div>
+        <div id="img-div">
+            <img id="image" src="https://therealchamps.com/wp-content/uploads/getty-images/2017/07/947096288.jpeg">
+            <figcaption id="img-caption">Cristiano Ronaldo winning his fifth in UEFA Champions League title in 2018.</figcaption>
+        </div>
+        <div id="tribute-info">
+            <h3>Here's a timeline of Ronaldo life:</h3>
+            <div>
+                <ul>
+                    <li><span>1985</span> - Born in Madeira, Portugal</li>
+                    <li><span>1992 to 1995</span> - Ronaldo played for Andorinha.</li>
+                    <li><span>1995 to 1997</span> - He spent two years with Nacional.</li>
+                    <li><span>1997</span> - He went on a three-day trial with Sporting CP, who signed him for a fee of £1,500. He subsequently moved from Madeira to Alcochete, near Lisbon, to join Sporting's youth academy.</li>
+                    <li><span>1999</span> - Ronaldo believed he had the ability to play semi-professionally and agreed with his mother to cease his education to focus entirely on football</li>
+                    <li><span>2001</span> - Ronaldo was promoted from Sporting's youth team by first-team manager László Bölöni, who was impressed with his dribbling.</li>
+                    <li><span>2002</span> - Ronaldo made his debut in the Primeira Liga, against Braga and on 7 October, he scored two goals against Moreirense in their 3–0 win.</li>
+                    <li><span>2003</span> - Ronaldo's move to Manchester United was completed on 12 August 2003.</li>
+                    <li><span>2005</span> - Ronaldo played two of his best matches of the 2004–05 season, producing a goal and an assist against Aston Villa and scoring twice against rivals Arsenal.</li>
+                    <li><span>2010</span> -Ronaldo joined Real Madrid for a world record transfer fee at the time of £80 million (€94 million) </li>
+                    <li><span>2013</span> - Ronaldo captained Madrid for the first time in an official match, scoring twice to lift 10-man Madrid to a 4–3 win over Sociedad on 6 January.</li>
+                    <li><span>2018</span> - Ronaldo signed a four-year contract with Italian club Juventus after completing a €100 million transfer.</li>
+                    <li><span>2021</span> - Manchester United announced they had reached an agreement with Juventus to re-sign Ronaldo, subject to agreement of personal terms, visa and medical.</li>
+                </ul>
+            </div>
+            <q>Talent without working hard is nothing.</q>
+            <p>-- Cristiano Ronaldo</p>
+            <footer>
+                <h3>If you want to know more about this passionate football <a id="tribute-link" href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank">Click Here</a>.</h3>
+            </footer>
+        </div>
+    </main>
+    
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+    font-family: Roman,Italic;
+}
+
+main {
+    background-color: rgb(245, 245, 245);
+    margin: 30px 5px;
+}
+
+#title {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.header {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: up;
+    align-items: up;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#img-div {
+    width: 120%;
+    margin: 5px auto;
+    background-color:grey;
+}
+
+#img-div > #image {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-div > #img-caption {
+    width: 59%;
+    margin: 5px auto;
+    padding-bottom: 20px;
+}
+
+#tribute-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: up;
+    align-items: center;
+}
+
+#tribute-info > h3 {
+    margin: 50px 0 20px 0;
+}
+
+span{
+    font-weight: bold;
+}
+
+#tribute-info > div > ul > li {
+    width: 45%;
+    margin: 20px auto;
+    line-height: 30px;
+}
+
+q {
+    margin: 20px 0 0 0;
+}
+
+footer {
+    margin: 20px 0;
+}
+
+a {
+    cursor: pointer;
+    color: rgb(0, 0, 255);
+}
+
+
+** end of undefined **
+

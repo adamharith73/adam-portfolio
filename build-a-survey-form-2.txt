@@ -1,0 +1,174 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sports Survey Form</title>
+  </header>
+  <body>
+    <h1 id="title">Sports Survey Form</h1>
+    <p id="description" class="established">Thank you helping me to answer this form</p>
+    <form id="survey-form" action="mail to:adamharithazwan@gmail.com" enctype="text/plain">
+      <fieldset>
+        <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required /></label>
+        <label id="email-label">Email<input id="email" type="email" placeholder="Enter your Email" required /></label>
+        <label id="number-label">Age <small>(optional)</small> <input id="number" type="number" min="10" max="99" placeholder="Age" /  ></label>
+        <label> Which option best describes your current role
+          <select id="dropdown">
+            <option value="">Select current role</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Part Time Job</option>
+            <option value="4">Prefer not to say</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label> Are you actively involved in sports?</label>
+          <label><input type="radio" class="inline" name="attribute" value="1" checked /> Yes</label>
+          <label><input type="radio" class="inline" name="attribute" value="2" /> No</label>
+          <label><input type="radio" class="inline" name="attribute" value="3" /> Maybe</label>
+      </fieldset>
+      <fieldset>
+        <label> What is your favorite sports?
+          <select id="dropdown2">
+            <option value="">Select an option</option>
+            <option value="1">Football</option>
+            <option value="2">Basketball</option>
+            <option value="3">Badminton</option>
+            <option value="4">Rugby</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Why you like playing sports? <small>(Check all that apply)</small> </label>
+        <label><input type="checkbox" class="inline" value="income" /> Income</label>
+        <label><input type="checkbox" class="inline" value="fun" /> Fun</label>
+        <label><input type="checkbox" class="inline" value="friends" /> Friends</label>
+        <label><input type="checkbox" class="inline" value="challenges" /> Challenges</label>
+        <label><input type="checkbox" class="inline" value="parents" /> Parents</label>
+        <label><input type="checkbox" class="inline" value="stress-relieving" /> Stress-Relieving</label>
+        <label><input type="checkbox" class="inline" value="healthy" /> Healthy</label>
+        <label><input type="checkbox" class="inline" value="good photos" />Good Photos</label>
+        <label><input type="checkbox" class="inline" value="hobby" /> Hobby</label>
+      </fieldset>
+      <fieldset>
+        <label> Any opinions or suggestions about ur sports?
+          <textarea rows="5" cols="50" placeholder="Enter your comment here..."></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <input type="submit" value="Submit" id="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-image: img href="https://img.freepik.com/free-vector/gradient-national-sports-day-illustration_23-2148995776.jpg?w=996&t=st=1683989119~exp=1683989719~hmac=a26f45e146e3ed5c7969e592121e76820951e6709c57d9a220ed7efcf47bad30";
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  font-family: Perpetua;
+  font-size: 24px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.established {
+  font-style: italic;
+}
+
+form {
+  background-color: rgba(0, 0, 54.5, 0.9);
+  color: rgb(0, 255, 0,50%);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(255, 0, 0,45%);
+  width: 60vw;
+  max-width: 700px;
+  min-width: 350px;
+  margin: 0 auto;
+  padding: 15px 15px 25px 15px;
+}
+
+label {
+  display: block;
+}
+
+fieldset {
+  border: none;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  margin: 0.1em 0 1em 0;
+  min-height: 2em;
+  font-size: 0.67em;
+}
+
+input,
+select {
+  border-radius: 5px;
+}
+
+textarea {
+  min-height: 6.33em;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: rgb(155, 0, 0);
+  border-color: rgb(255, 215, 0);
+  color: rgb(245, 255, 250);
+  font-size: 1.33rem;
+  min-height: 2.5em;
+}
+
+input[type="submit"]:hover {
+  outline: none !important;
+  border: 2px solid rgb(0, 255, 255);
+  box-shadow: 0 0 10px rgb(0, 127, 127);
+  cursor: pointer;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus {
+  outline: none !important;
+  box-shadow: 0 0 7px rgb(0, 255, 255);
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  min-height: unset;
+  vertical-align: middle;
+}
+
+
+** end of undefined **
+
