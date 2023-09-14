@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="ÜTF-8"
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+  <div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+    <img id="header-img" src=https://www.google.com/imgres?imgurl=https%3A%2F%2Fw7.pngwing.com%2Fpngs%2F190%2F434%2Fpng-transparent-football-boot-computer-icons-sport-football-angle-sport-football-boot.png&tbnid=cwIQjs2iX2HwTM&vet=12ahUKEwiim5-ouML_AhVFMbcAHflOBY8QMygAegUIARDCAQ..i&imgrefurl=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3DFootball%2Bboot&docid=u-HoOKve3XkkfM&w=920&h=512&q=football%20boots%20logo&client=safari&ved=2ahUKEwiim5-ouML_AhVFMbcAHflOBY8QMygAegUIARDCAQ= 
+    =alt="boots logo"/>
+  </div>
+  <nav id="nav-bar">
+    <ul>
+    <li><a class="nav-link" href="#features">Features</a></li>
+    <li><a class="nav-link" href="#how_it_made">How It Works</a></li>
+   <li><a class="nav-link" href="#pricing">Pricing</a></li>
+   </ul>
+   </nav>  
+  </header>
+      <div class="container"></div>
+      <section id="hero">
+    <h2>Handcrafted, made from the best for the best</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input id="email" placeholder="Enter your email address" type="email" name="email" required>
+    <br><input id="submit" type="submit" value="GET STARTED" class="btn"/></br>
+    </form>
+    </section>
+
+    <div class="container">
+    <section id="features">
+    <div class="grid">
+    <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+    <div class="desc">
+    <h2>Premium Materials</h2>
+    <p>Our shoes use the highest quality of leather which is sourced locally. This will increase the durability of the shoes.</p>
+    </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+    <h2>Fast Shipping</h2>
+    <p>We make sure you recieve your shoes as soon as we have finished making it. We also provide free returns if any damages or unsatisfied conditions of the shoes.</p>
+    </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+    <h2>Quality Assurance</h2>
+    <P>For every purchase you make, we will ensure there are no damages or faults and we will undergo specific tests to maintain the quality of the shoes.</p>
+    </div>
+          </div>
+        </section>
+        <section id="how_it_made">
+    <iframe height="240" id="video" src="https://www.youtube.com/embed/ShqOJiu2AUw" frameborder="0" allowfullscreen type="video/mp4" >
+    </iframe>
+    </section>
+    <section id="pricing">
+          <div class="product" id="tenor">
+            <div class="level">The Process of making shoes</div>
+            <h2>RM 299</h2>
+            <ol>
+              <li>Multi-ground football boots.</li>
+              <li>Synthetic Leather.</li>
+              <li>Asymmetrics Laces.</li>
+              <li>Dynamic Fit collar.</li>
+            </ol>
+            <button class="btn">Purchase</button>
+          </div>
+          <div class="product" id="bass">
+            <div class="level">Nike Phantom GX</div>
+            <h2>RM 900</h2>
+            <ol>
+              <li>Firm-ground football boots.</li>
+              <li>Iconic colors.</li>
+              <li>Flyknit.</li>
+              <li>Cushioned Insole.</li>
+            </ol>
+            <button class="btn">Purchase</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">Nike Zoom Mercurial</div>
+            <h2>RM1200</h2>
+            <ol>
+              <li>Cushioned Built</li>
+              <li>Firm Ground football boots</li>
+              <li>The best ever made.</li>
+              <li>Improves First Touch.</li>
+            </ol>
+            <button class="btn">Purchase</button>
+            <div class="product" id="valve">
+              <div class="level">Nike Mercurial Superfly</div>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2023, Adam Nike Store</span>
+        </footer>
+      </div>
+    </div>
+</body>
+</html>
+CSS
+* {
+  background-color: #ff7f50;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+h2, p {
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: linen;
+}
+#hero {
+  grid-column: 1 / -1;
+  position: relative;
+  text-align: center;
+}
+header {
+justify-content: flex-end;
+position: positioned;
+display: flex;
+flex-direction: row;
+flex-wrap: none;
+width: 100%;
+top: 0;
+left: 0;
+  padding: 1em;
+
+}
+@media only screen and (max-width: 720px) {
+  .image-wrapper {
+    grid-template-columns: 1fr;
+  }
+  i {
+    color: yellow;
+  }
+  #submit {
+    background-color: yellow;
+  }
+  input {
+    font-weight: bold;
+    font-szie: 15;
+  }
+  .btn {
+    color: blue;
+    padding-top: 
+  }
+  #nav-bar{
+position: fixed;
+top: 0px;
+  }
